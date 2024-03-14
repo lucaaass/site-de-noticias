@@ -1,0 +1,25 @@
+.container-header{
+   
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.container-header .logo li {
+    font-size: 30pt;
+    color: var(--Very-dark-blue);
+    font-weight: 900;
+
+}
+.list li{
+    display: inline-block;
+   color: var(--Dark-grayish-blue);
+   font-size: 14pt;
+    margin: 2px;
+   padding: 20px;
+  
+}
+.list li:hover {
+ color: var(--Soft-red);
+ cursor: pointer;
+}

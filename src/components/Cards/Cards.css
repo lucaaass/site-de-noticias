@@ -1,0 +1,30 @@
+.container-cards {
+    margin:  60px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.container-cards img {
+    height: 200px;
+}
+.container-cards > div {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.container-cards .cards-h1 {
+    color: var(--Grayish-blue);
+}
+.container-cards .cards-h3 {
+    color: var(--Very-dark-blue);
+    font-weight: 900;
+    margin: 20px 0;
+}
+.container-cards .cards-h3:hover {
+    color: var(--Soft-red);
+    cursor: pointer;
+}
+.container-cards .cards-p {
+    color: var(--Very-dark-blue);
+    font-size: 15pt;
+} 
