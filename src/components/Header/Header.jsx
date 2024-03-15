@@ -18,8 +18,8 @@ function Header() {
                 </ul>
             </div>
             <div className={active ? 'icon iconActive' : 'icon'} onClick={ToggleMode}>
-                <div className="hamburguer"><img src="./src/assets/icon-menu.svg" alt="" /></div>
-                <div className="hamburguerClose hambuerguerIcon"><img src="./src/assets/icon-menu-close.svg" alt="" /></div>
+                <div className="hamburguer"><img src="src/assets/icon-menu.svg" alt="" /></div>
+                <div className="hamburguerClose hambuerguerIcon"><img src="src/assets/icon-menu-close.svg" alt="" /></div>
             </div>
             <div className={active ? 'menu menoOpen' : 'menu menuClose'}>
                 <div className="list">

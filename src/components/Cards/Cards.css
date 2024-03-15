@@ -6,7 +6,7 @@
 }
 
 .container-cards img {
-    height: 12.5rem;
+    height: 11rem;
 }
 
 .container-cards>div {
@@ -16,6 +16,10 @@
 
 .container-cards .cards-h1 {
     color: var(--Grayish-blue);
+}
+
+.container-cards .cards-infos{
+    margin-right: 20px;
 }
 
 .container-cards .cards-h3 {

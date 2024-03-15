@@ -3,7 +3,7 @@ const Notices = () => {
     return (
         <div className="container">
             <div>
-                <img src="./src/assets/image-web-3-desktop.jpg" alt="" />
+                <img src="src/assets/image-web-3-desktop.jpg" alt="image" />
                 <div className='article'>
                     <h1 className='article-h1'>The Bright future of Web 3.0 ?</h1>
                     <div className='infos'>
@@ -30,7 +30,7 @@ const Notices = () => {
 
                 <div>
                     <h2 className='article-list-h2'>Is VC Funding Drying Up ? </h2>
-                    <p className='article-list-p'>Private funding by VC firms is down 50% YOY. We take a look at what that means</p>
+                    <p className='article-list-p' id='article-list-p'>Private funding by VC firms is down 50% YOY. We take a look at what that means</p>
                 </div>
             </div>
         </div>

@@ -3,7 +3,7 @@ const Cards = () => {
     return (
         <div className="container-cards">
             <div className="cards">
-                <img src="./src/assets/image-retro-pcs.jpg" alt="" />
+                <img src="src/assets/image-retro-pcs.jpg" alt="" />
                 <div className="cards-infos">
                     <h1 className="cards-h1">01</h1>
                     <h3 className="cards-h3">Reviving Retro PCs</h3>
@@ -13,7 +13,7 @@ const Cards = () => {
 
 
             <div className="cards">
-                <img src="./src/assets/image-top-laptops.jpg" alt="" />
+                <img src="src/assets/image-top-laptops.jpg" alt="" />
                 <div className="cards-infos">
                     <h1 className="cards-h1">02</h1>
                     <h3 className="cards-h3">Top 10 Laptops of 2022</h3>
@@ -22,7 +22,7 @@ const Cards = () => {
             </div>
 
             <div className="cards">
-                <img src="./src/assets/image-gaming-growth.jpg" alt="" />
+                <img src="src/assets/image-gaming-growth.jpg" alt="" />
                 <div className="cards-infos">
                     <h1 className="cards-h1">03</h1>
                     <h3 className="cards-h3">The Growth of Gaming</h3>
