@@ -5,15 +5,7 @@
     height: 120px;
     background: var(--Off-white);
     align-items: center;
-
-}
-
-.logo {
-    font-size: 30pt;
-    color: var(--Very-dark-blue);
-    font-weight: 900;
-    margin-left: 20px;
-
+    
 }
 
 .list {
@@ -49,7 +41,12 @@
 
 
 @media (max-width: 767px) {
+ .logo img {
+    font-size: 30pt;
+    margin-left: 15px;
+    
 
+} 
     .icon {
         position: absolute;
         left: 88%;

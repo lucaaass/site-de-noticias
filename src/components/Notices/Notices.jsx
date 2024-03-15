@@ -3,7 +3,7 @@ const Notices = () => {
     return (
         <div className="container">
             <div>
-                <img src="src/assets/image-web-3-desktop.jpg" alt="image" />
+                <img src="https://utfs.io/f/c174af98-ebdd-42ac-ba82-609931de8604-x9ut2h.jpg" alt="image" />
                 <div className='article'>
                     <h1 className='article-h1'>The Bright future of Web 3.0 ?</h1>
                     <div className='infos'>

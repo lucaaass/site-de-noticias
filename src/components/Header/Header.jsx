@@ -14,12 +14,12 @@ function Header() {
         <div className="App">
             <div>
                 <ul className='logo'>
-                    <li>W.</li>
+                    <li><img src="https://utfs.io/f/fd360ad1-ea14-4dec-9bbf-60da0ba0fa2f-1zbfv.svg" alt="" /></li>
                 </ul>
             </div>
             <div className={active ? 'icon iconActive' : 'icon'} onClick={ToggleMode}>
-                <div className="hamburguer"><img src="src/assets/icon-menu.svg" alt="" /></div>
-                <div className="hamburguerClose hambuerguerIcon"><img src="src/assets/icon-menu-close.svg" alt="" /></div>
+                <div className="hamburguer"><img src="https://utfs.io/f/ec5437b5-6a91-46fb-8d17-8c8bebb64fc2-nrg1cd.svg" alt="" /></div>
+                <div className="hamburguerClose hambuerguerIcon"><img src="https://utfs.io/f/74e73b26-b57b-42fb-b535-50cd97080e68-idbhgi.svg" alt="" /></div>
             </div>
             <div className={active ? 'menu menoOpen' : 'menu menuClose'}>
                 <div className="list">
