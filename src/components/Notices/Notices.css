@@ -3,35 +3,32 @@
     display: grid;
     grid-template-columns: 55% 43%;
     gap: 1.8em;
-   
-    
-  
 }
 
-
-.container div > img {
+.container div>img {
     width: 100%;
     height: 300px;
+    margin-bottom: 20px;
 }
-
-
 
 .container .article {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    
-    
+
 }
-.container .article  .article-h1{
+
+.container .article .article-h1 {
     font-weight: 900;
     font-size: 4rem;
 }
-.container .article  .infos {
+
+.container .article .infos {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.container .article  p {
+
+.container .article p {
     font-size: 15pt;
     color: var(--Dark-grayish-blue);
 }
@@ -44,33 +41,97 @@
     color: var(--Off-white);
     border: none;
     cursor: pointer;
-    
+
 }
+
 .container .article button:hover {
     background-color: black;
 }
 
 .container .article-list {
     background-color: black;
-    
+
 }
+
 .container .article-list-h1 {
     font-size: 3rem;
     color: var(--Soft-orange);
-    margin: 25px 20px ;
+    margin: 25px 20px;
 }
+
 .container .article-list-h2 {
     font-size: 2rem;
     color: var(--Off-white);
-    margin: 25px 20px ;
+    margin: 25px 20px;
 }
 
 .container .article-list-h2:hover {
     color: var(--Soft-orange);
     cursor: pointer;
 }
+
 .container .article-list-p {
     color: var(--Grayish-blue);
     margin: 0 20px;
     border-bottom: 1px solid var(--Grayish-blue);
+    padding-bottom: 30px;
+
+}
+
+.container .article-list-p.article-list-p:nth-last-child(2n) {
+    border-bottom: none;
+}
+
+@media (max-width: 767px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .container .article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .article .article-h1 {
+        font-weight: 900;
+        font-size: 2.5rem;
+    }
+
+    .container .article .infos {
+        margin: 15px 0;
+    }
+
+    .container .article p {
+        font-size: 12.5pt;
+
+    }
+
+    .container .article button {
+        font-size: 15pt;
+        width: 200px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    .container .article-list {
+        background-color: black;
+
+    }
+
+    .container .article-list-h1 {
+        font-size: 1.7rem;
+    }
+
+    .container .article-list-h2 {
+        font-size: 1.3rem;
+    }
+
+
+    .container .article-list-p {
+        font-size: 12pt;
+
+    }
 }

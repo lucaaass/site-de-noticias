@@ -1,25 +1,114 @@
-.container-header{
-   
-    width: 100%;
+.App {
     display: flex;
     justify-content: space-between;
- 
+    width: 100%;
+    height: 120px;
+    background: var(--Off-white);
+    align-items: center;
+
 }
-.container-header .logo li {
+
+.logo {
     font-size: 30pt;
     color: var(--Very-dark-blue);
     font-weight: 900;
+    margin-left: 20px;
 
 }
-.list li{
-    display: inline-block;
-   color: var(--Dark-grayish-blue);
-   font-size: 14pt;
-    margin: 2px;
-   padding: 20px;
-  
+
+.list {
+    display: flex;
+    justify-content: space-around;
 }
-.list li:hover {
- color: var(--Soft-red);
- cursor: pointer;
+
+.list .listItems {
+    padding: 0;
+    display: flex;
+}
+
+.list .listItems li {
+    display: inline-block;
+    color: var(--Dark-grayish-blue);
+    font-size: 14pt;
+    margin: 2px;
+    padding: 20px;
+}
+
+.list .listItems li:hover {
+    color: var(--Soft-red);
+    cursor: pointer;
+}
+
+.hamburguerClose {
+    display: none;
+}
+
+.hamburguer {
+    display: none;
+}
+
+
+@media (max-width: 767px) {
+
+    .icon {
+        position: absolute;
+        left: 88%;
+        width: fit-content;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .hamburguer {
+        position: absolute;
+        display: flex;
+        cursor: pointer;
+        left: 86%;
+    }
+
+    .hamburguerClose {
+        display: none;
+    }
+
+    .list {
+        display: flex;
+        position: absolute;
+        font-size: 1.2rem;
+        background: var(--Off-white);
+        right: 0;
+        height: 100%;
+        width: 60%;
+        top: 0;
+    }
+
+    .list .listItems {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+        right: 0;
+    }
+
+    .list .listItems li {
+        margin: 20px;
+        font-size: 15pt;
+        display: flex;
+    }
+
+
+    .icon.iconActive .hamburguer {
+
+        display: none;
+    }
+
+    .icon.iconActive .hamburguerClose {
+
+        display: inline-block;
+    }
+
+
+    .menu.menuClose {
+        display: none;
+        width: 0px;
+    }
+
 }
